@@ -4,33 +4,77 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-h1{ padding: 20px 0 0 20px; }
+body, html{
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    padding: 20px 40px 0 20px;
+    display: inline-block;
+}
 
 /* SECCION DE PELICULAS SEPARADS POR AÑOS */
-.seccion{
-    margin-top: 30px;
-    width: 100%;
-    height: 350px;
-    padding: 0 20px;
+.peliculas{
+    height: 360px;
+    width: 90%;
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap: 0 20px;
+    background-color: #9a9a9a;
+    position: relative;
+    border-radius: 0 0 15px 15px;
 }
-.seccion div{
-    width: 100%;
-    height: 100%;
+h2{
+    background-color: #dedede;
+    margin: 20px 20px 0 20px;
+    padding: 7px;
+    border: 2px solid #343434;
+    user-select: none;
+    border-radius: 15px;
+}
+.peliculas div{
+    height: fit-content;
+    width: fit-content;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
-    background-color: #9a9a9a;
 }
-.seccion div a{
-    width: 175px;
-    height: 320px;
+.peliculas div a{
+    width: fit-content;
+    height: fit-content;
     background-color: #cdcdcd;
     color: #010101;
     text-decoration: none;
     text-align: center;
+    margin: 15px 0;
+    padding: 10px;
 }
-.seccion div a img{ width: 175px; }
-.seccion div a h3{
+.peliculas div a img{ width: 175px; }
+.peliculas div a h3{
     padding-top: 5px;
     font-weight: bolder;
+}
+
+/* SEARCH BAR */
+#searchBar{
+    padding: 6px 17px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+/* EXPANDIR BTN */
+.btnExpandirPeli{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
 }

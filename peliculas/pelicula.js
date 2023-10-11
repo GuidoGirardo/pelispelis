@@ -10,3 +10,9 @@ function cambiarVideo(url, botonActivo) {
 
     console.log(videoSource.src);
 }
+
+window.addEventListener('beforeunload', function (event) {
+    window.close();
+
+    event.preventDefault();
+}, false);
