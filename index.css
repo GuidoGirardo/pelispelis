@@ -6,11 +6,13 @@
 }
 body, html{
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    background-color: #343434;
 }
 h1{
     padding: 20px 40px 0 20px;
     display: inline-block;
+    color: rgb(243, 149, 43);
 }
 
 /* SECCION DE PELICULAS SEPARADS POR AÑOS */
@@ -39,22 +41,32 @@ h2{
 .peliculas div{
     height: fit-content;
     width: fit-content;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
     justify-content: center;
 }
 .peliculas div a{
-    width: fit-content;
-    height: fit-content;
+    width: 260px;
+    height: 330px;
     background-color: #cdcdcd;
     color: #010101;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     text-align: center;
+    flex-direction: column;
     margin: 15px 0;
     padding: 10px;
+    border-radius: 5px;
+    gap: 5px 0;
 }
-.peliculas div a img{ width: 175px; }
+.peliculas div a img{
+    border: 3px solid #343434;
+    width: 75%;
+    border-radius: 5px;
+}
+.peliculas div a img:hover{
+    border: 3px solid rgb(243, 149, 43);
+}
 .peliculas div a h3{
     padding-top: 5px;
     font-weight: bolder;
