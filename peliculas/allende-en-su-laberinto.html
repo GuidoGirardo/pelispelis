@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pelis-pelis</title>
+    <script src="pelicula.js"></script>
+    <meta name="referrer" content="never" />
+</head>
+<body>
+    
+    <h1>PELIS-PELIS</h1>
+
+    <h2>ALLENDE EN SU LABERINTO - 2014, del director Miguel Littin</h2>
+
+    <iframe id="videoSource" width="640" height="360" src="//ok.ru/videoembed/88376478374" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+
+    <div>
+        <button id="botonOriginal" class="boton-activo" onclick="cambiarVideo('//ok.ru/videoembed/88376478374', 'botonOriginal')">Original</button>
+        <!--
+            <button id="botonTraducida" onclick="cambiarVideo('', 'botonTraducida')">Traducida a Español</button>
+            <button id="botonIngles" onclick="cambiarVideo('', 'botonIngles')">Inglés</button>
+        -->
+    </div>
+
+    <a href="../index.html"><button id="exit">EXIT HOME <=</button></a>
+    
+    <link rel="stylesheet" href="peliculas_style.css">
+</body>
+</html>

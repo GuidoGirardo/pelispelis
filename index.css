@@ -61,7 +61,7 @@ h2{
 }
 .peliculas div a img{
     border: 3px solid #343434;
-    width: 75%;
+    width: 178px;
     border-radius: 5px;
 }
 .peliculas div a img:hover{
