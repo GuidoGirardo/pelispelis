@@ -4,27 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pelis-pelis</title>
-    <script src="pelicula.js"></script>
-    <meta name="referrer" content="never" />
+    <link rel="stylesheet" href="peliculas_style.css">
 </head>
 <body>
     
     <h1>PELIS-PELIS</h1>
 
-    <h2>ANGELA - 2023, del director Hugo Prata</h2>
+    <h2>ANGELA - 2023, HUGO PRATA (BRASIL)</h2>
 
-    <iframe id="videoSource" width="640" height="360" src="//ok.ru/videoembed/6860686166643" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+    <iframe id="videoSource" width="640" height="360" src="//ok.ru/videoembed/6860686166643" frameborder="0" allow="autoplay" allowfullscreen=""></iframe>
 
     <div>
-        <button id="botonSubtitulada" class="boton-activo" onclick="cambiarVideo('//ok.ru/videoembed/6860686166643', 'botonSubtitulada')">Subtitulada en Español, Idioma Original</button>
-        <!--
-            <button id="botonTraducida" onclick="cambiarVideo('', 'botonTraducida')">Traducida a Español</button>
-            <button id="botonIngles" onclick="cambiarVideo('', 'botonIngles')">Inglés</button>
-        -->
+        <button id="botonSubtitulada" class="boton-activo" onclick="cambiarVideo('//ok.ru/videoembed/6860686166643', 'botonSubtitulada')">SUBTITULADA EN ESPAÑOL, IDIOMA ORIGINAL</button>
     </div>
 
-    <a href="../index.html"><button id="exit">EXIT HOME <=</button></a>
+    <a id="exit" href="../index.html">EXIT</a>
     
-    <link rel="stylesheet" href="peliculas_style.css">
+    <script src="peliculas_script.js"></script>
+
 </body>
 </html>

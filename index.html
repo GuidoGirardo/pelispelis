@@ -3,156 +3,292 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pelis-pelis</title>
-    <link rel="stylesheet" href="index.css">
-
-    <!-- ESTO ES PARA LAS ADS ↓ -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7598292228873623"
-     crossorigin="anonymous"></script>
+    <title>NOFLIX - ALL MOVIES EVER</title>
+    <link rel="icon" type="image/x-icon" href="noflix.png">
+    <script src="https://kit.fontawesome.com/eb65c1a237.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="noflix = TODAS las PELICULAS del universo 🍔😎 + GRATIS y en todos los DISPOSITIVOS del UNIVERSO 👽🚀">
+    <meta name="keywords" content="peliculas, series, noflix peliculas, todas las peliculas, peliculas de accion, peliculas de amor noflix, series noflix, comedias de noflix, peliculas y series de noflix, noflix">
 </head>
 <body>
-
-    <h1>PELIS-PELIS</h1>
-
-    <input type="text" id="searchBar" placeholder="Buscar películas">
-
-    <h2>50'</h2>
-    <div class="peliculas">
-        
-        <div>
-            <a href="peliculas/vivir.html">
-                 <img src="portadas/vivir_portada.jpg" alt="VIVIR (IKIRU)">
-                 <h3>VIVIR (IKIRU)</h3>
-                 <h4>1952 - Akira Kurosawa</h4>
-            </a>
-         </div>
-
-        <div>
-           <a href="peliculas/los-7-samurais.html">
-                <img src="portadas/los7samurais_portada.jpg" alt="LOS 7 SAMURÁIS">
-                <h3>LOS 7 SAMURAIS</h3>
-                <h4>1954 - Akira Kurosawa</h4>
-           </a>
+    
+    <header>
+        <h1>NOFLIX.ONLINE</h1>
+        <input type="text" id="buscarPelicula" placeholder="🔍">
+        <div id="banderaPelicula">
+            <img src="banderas/argentina_bandera.webp" alt="argentina">
+            <img src="banderas/francia_bandera.png" alt="francia">
+            <img src="banderas/españa_bandera.webp" alt="españa">
+            <img src="banderas/inglaterra_bandera.jfif" alt="inglaterra">
+            <img src="banderas/italia_bandera.avif" alt="italia">
+            <img src="banderas/suecia_bandera.png" alt="suecia">
+            <img src="banderas/japon_bandera.webp" alt="japon">
+            <img src="banderas/brasil_bandera.webp" alt="brasil">
+            <img src="banderas/eeuu_bandera.webp" alt="eeuu">
+            <img src="banderas/grecia_bandera.png" alt="grecia">
+            <img src="banderas/belgica_bandera.png" alt="belgica">
+            <img src="banderas/venezuela_bandera.png" alt="venezuela">
+            <!-- <img src="banderas/noruega_bandera.png" alt="noruega"> -->
+            <!-- DESPUES CHATGPT PARA ORDENARLAS -->
         </div>
-
-        <button class="btnExpandirPeli">↓</button>
-
-    </div>
-
-    <h2>60'</h2>
-    <div class="peliculas">
-
-        <button class="btnExpandirPeli">↓</button>
-
-    </div>
-
-    <h2>70'</h2>
-    <div class="peliculas">
-
-        <div>
-            <a href="peliculas/la-naranja-mecanica.html">
-                    <img src="portadas/lanaranjamecanica_portada.jpg" alt="LA NARANJA MECÁNICA">
-                    <h3>LA NARANJA MECÁNICA</h3>
-                    <h4>1971 - Stanley Kubrick</h4>
-            </a>
+        <div id="generoPelicula">
+            <!--
+                <i class="fa-solid fa-face-grimace terror"></i>
+                <i class="fa-solid fa-football deporte"></i>
+                <i class="fa-solid fa-music musica"></i>
+                <i class="fa-solid fa-pepper-hot picante"></i>
+            -->
+            <i class="fa-solid fa-face-laugh-squint comedia"></i>
+            <i class="fa-solid fa-heart romance"></i>
+            <i class="fa-solid fa-gun accion"></i>
+            <i class="fa-solid fa-masks-theater drama"></i>
+            <i class="fa-solid fa-video documental"></i>
+            <i class="fa-solid fa-book libro"></i>
+            <i class="fa-solid fa-dragon fantasia"></i>
+            <i class="fa-solid fa-pencil animacion"></i>
+            <!-- <i class="fa-solid fa-baby infantil"></i> -->
         </div>
+    </header>
 
-        <button class="btnExpandirPeli">↓</button>
-
-    </div>
-
-    <h2>80'</h2>
-    <div class="peliculas">
-
+    <section>
+        <h2>40'</h2>
         <div>
-            <a href="peliculas/que-he-hecho-yo-para-merecer-esto.html.html">
-                    <img src="portadas/quehehechoyoparamereceresto_portada.jpg" alt="QUE HE HECHO YO PARA MERECER ESTO?">
+
+            <a href="peliculas/la-sed.html" class="suecia documental drama">
+                <img src="portadas/lased_portada.jpg" alt="la sed portada">
+                <article>
+                    <h3>LA SED</h3>
+                    <h4>1949 - INGMAR BERGMAN</h4>
+                </article>
+            </a>
+            
+        </div>
+    </section>
+
+    <section>
+        <h2>50'</h2>
+        <div>
+            
+            <a href="peliculas/vivir.html" class="japon libro drama">
+                <img src="portadas/vivir_portada.jpg" alt="vivir (ikiru) portada">
+                <article>
+                    <h3>VIVIR (IKIRU)</h3>
+                    <h4>1952 - AKIRA KUROSAWA</h4>
+                </article>
+            </a>
+
+            <a href="peliculas/los-7-samurais.html" class="japon libro accion">
+                <img src="portadas/los7samurais_portada.jpg" alt="los 7 samurais portada">
+                <article>
+                    <h3>LOS 7 SAMURAIS</h3>
+                    <h4>1954 - AKIRA KUROSAWA</h4>
+                </article>
+            </a>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>60'</h2>
+        <div>
+            
+            <a href="peliculas/la-ciociara.html" class="italia romance drama">
+                <img src="portadas/laciociara-dosmujeres_portada.jpg" alt="la ciociara portada">
+                <article>
+                    <h3>LA CIOCIARA</h3>
+                    <h4>1960 - VITTORIO DE SICA</h4>
+                </article>
+            </a>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>70'</h2>
+        <div>
+            
+            <a href="peliculas/la-estrategia-de-la-araña.html" class="italia drama">
+                <img src="portadas/laestrategiadelaaraña_portada.jpg" alt="la estrategia de la araña">
+                <article>
+                    <h3>LA ESTRATEGIA DE LA ARAÑA</h3>
+                    <h4>1970 - BERNARDO BERTOLUCCI</h4>
+                </article>
+            </a>
+
+            <a href="peliculas/la-naranja-mecanica.html" class="inglaterra libro accion drama">
+                <img src="portadas/lanaranjamecanica_portada.jpg" alt="la naranja mecanica">
+                <article>
+                    <h3>LA NARANJA MECANICA</h3>
+                    <h4>1971, STANLEY KUBRICK</h4>
+                </article>
+            </a>
+
+            <a href="peliculas/fritz-el-gato.html" class="eeuu comedia">
+                <img src="portadas/fritzelgato_portada.jpg" alt="fritz el gato">
+                <article>
+                    <h3>FRITZ EL GATO</h3>
+                    <h4>1972 - RALPH BAKSHI</h4>
+                </article>
+            </a>
+
+            <a href="peliculas/el-beso-de-la-mujer-araña.html" class="brasil drama">
+                <img src="portadas/elbesodelamujeraraña_portada.jpg" alt="el beso de la mujer araña">
+                <article>
+                    <h3>EL BESO DE LA MUJER ARAÑA</h3>
+                    <h4>1976 - HECTOR BABENCO</h4>
+                </article>
+            </a>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>80'</h2>
+        <div>
+            
+            <a href="peliculas/fanny-y-alexander.html" class="suecia drama">
+                <img src="portadas/fannyyalexander_portada.jfif" alt="fanny y alexander">
+                <article>
+                    <h3>FANNY Y ALEXANDER</h3>
+                    <h4>1982 - INGMAR BERGMAN</h4>
+                </article>
+            </a>
+
+            <a href="peliculas/que-he-hecho-yo-para-merecer-esto.html" class="españa comedia">
+                <img src="portadas/quehehechoyoparamereceresto_portada.jpg" alt="que he hecho yo para merecer esto">
+                <article>
                     <h3>QUE HE HECHO YO PARA MERECER ESTO?</h3>
-                    <h4>1984 - Pedro Almodóvar</h4>
+                    <h4 class="bajarFontSizeH4">1984 - PEDRO ALMODÓVAR</h4>
+                </article>
             </a>
+
         </div>
+    </section>
 
-        <button class="btnExpandirPeli">↓</button>
-
-    </div>
-
-    <h2>90'</h2>
-    <div class="peliculas">
-
-        <button class="btnExpandirPeli">↓</button>
-
-    </div>
-
-    <h2>00'</h2>
-    <div class="peliculas">
-
+    <section>
+        <h2>90'</h2>
         <div>
-            <a href="peliculas/la-huelga-de-los-locos.html">
-                    <img src="portadas/lahuelgadeloslocos_portada.jpg" alt="LA HUELGA DE LOS LOCOS">
+            
+            <a href="peliculas/la-mirada-de-ulises.html" class="grecia accion drama">
+                <img src="portadas/lamiradadeulises_portada.jpg" alt="la mirada de ulises">
+                <article>
+                    <h3>LA MIRADA DE ULISES</h3>
+                    <h4>1995 - THEO ANGELOPOULOS</h4>
+                </article>
+            </a>
+
+            <a href="peliculas/firelight.html" class="francia romance drama">
+                <img src="portadas/firelight_portada.jpg" alt="firelight (a la luz del fuego)">
+                <article>
+                    <h3>FIRELIGHT (A LA LUZ DEL FUEGO)</h3>
+                    <h4>1997 - WILLIAM NICHOLSON</h4>
+                </article>
+            </a>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>00'</h2>
+        <div>
+            
+            <a href="peliculas/la-huelga-de-los-locos.html" class="argentina documental">
+                <img src="portadas/lahuelgadeloslocos_portada.jpg" alt="la huelga de los locos">
+                <article>
                     <h3>LA HUELGA DE LOS LOCOS</h3>
-                    <h4>2002 - Mariana Arruti</h4>
+                    <h4>2002 - MARIANA ARRUTI</h4>
+                </article>
             </a>
-        </div>
 
-        <div>
-            <a href="peliculas/el-polvo-del-tiempo.html">
-                    <img src="portadas/elpolvodeltiempo_portada.jpg" alt="EL POLVO DEL TIEMPO">
+            <a href="peliculas/carandiru.html" class="brasil drama accion">
+                <img src="portadas/carandiru_portada.jpg" alt="carandiru">
+                <article>
+                    <h3>CARANDIRU</h3>
+                    <h4>2003 - HECTOR BABENCO</h4>
+                </article>
+            </a>
+
+            <a href="peliculas/el-laberinto-del-fauno.html" class="españa fantasia accion drama libro">
+                <img src="portadas/ellaberintodelfauno_portada.webp" alt="el laberinto del fauno">
+                <article>
+                    <h3>EL LABERINTO DEL FAUNO</h3>
+                    <h4>2006 - GULLERMO DEL TORO</h4>
+                </article>
+            </a>
+
+            <a href="peliculas/el-polvo-del-tiempo.html" class="grecia drama">
+                <img src="portadas/elpolvodeltiempo_portada.jpg" alt="el polvo del tiempo">
+                <article>
                     <h3>EL POLVO DEL TIEMPO</h3>
-                    <h4>2008 - Theo Angelopoulos</h4>
+                    <h4>2008 - THEO ANGELOPOULOS</h4>
+                </article>
             </a>
+
+            <a href="peliculas/la-tierra-de-los-hombres-rojos.html" class="brasil drama">
+                <img src="portadas/latierradeloshombresrojos_portada.jpg" alt="la tierra de los hombres rojos">
+                <article>
+                    <h3>LA TIERRA DE LOS HOMBRES ROJOS</h3>
+                    <h4>2008 - MARCHO BECHIS</h4>
+                </article>
+            </a>
+
         </div>
+    </section>
 
-        <button class="btnExpandirPeli">↓</button>
-
-    </div>
-
-    <h2>10'</h2>
-    <div class="peliculas">
-
+    <section>
+        <h2>10'</h2>
         <div>
-            <a href="peliculas/allende-en-su-laberinto.html">
-                    <img src="portadas/allendeensulaberinto.webp" alt="ALLENDE EN SU LABERINTO">
+            
+            <a href="peliculas/el-niño-de-la-bicicleta.html" class="belgica drama comedia">
+                <img src="portadas/elniñodelabicicleta_portada.jpg" alt="el niño de la bicicleta">
+                <article>
+                    <h3>EL NIÑO DE LA BICICLETA</h3>
+                    <h4>2011 - JEAN-PIERRE & LUC (DARDENNE)</h4>
+                </article>
+            </a>
+
+            <a href="peliculas/allende-en-su-laberinto.html" class="venezuela accion drama">
+                <img src="portadas/allendeensulaberinto_portada.webp" alt="allende en su laberinto">
+                <article>
                     <h3>ALLENDE EN SU LABERINTO</h3>
-                    <h4>2014 - Miguel Littin</h4>
+                    <h4>2014 - MIGUEL LITTIN</h4>
+                </article>
             </a>
+
+            <a href="peliculas/la-forma-del-agua.html" class="eeuu fantasia romance drama">
+                <img src="portadas/laformadelagua_portada.jpg" alt="la forma del agua">
+                <article>
+                    <h3>LA FORMA DEL AGUA</h3>
+                    <h4>2017 - GUILLERMO DEL TORO</h4>
+                </article>
+            </a>
+
         </div>
+    </section>
 
-        <button class="btnExpandirPeli">↓</button>
-
-    </div>
-
-    <h2>2022</h2>
-    <div class="peliculas">
-
+    <section>
+        <h2>20'</h2>
         <div>
-           <a href="peliculas/helt-super_los-super-descendientes.html">
-                <img src="portadas/heltsuper-lossuperdescendientes_portada.webp" alt="HELT SUPER (LOS SUPER DESCENDIENTES)">
-                <h3>HELT SUPER (LOS SUPER DESCENDIENTES)</h3>
-                <h4>2022 - Rasmus A. Sivertsen</h4>
-           </a>
+
         </div>
+    </section>
 
-        <button class="btnExpandirPeli">↓</button>
-
-    </div>
-
-    <h2>2023</h2>
-    <div class="peliculas">
-
+    <section>
+        <h2>2023</h2>
         <div>
-            <a href="peliculas/angela.html">
-                    <img src="portadas/angela_portada.jpg" alt="ANGELA">
+
+            <a href="peliculas/angela.html" class="brasil comedia drama romance">
+                <img src="portadas/angela_portada.jpg" alt="angela">
+                <article>
                     <h3>ANGELA</h3>
-                    <h4>2023 - Hugo Prata</h4>
+                    <h4>2023 - HUGO PRATA</h4>
+                </article>
             </a>
+
         </div>
+    </section>
 
-        <button class="btnExpandirPeli">↓</button>
+    <script src="script.js"></script>
 
-    </div>
-
-    <br>
-
-    <script src="index.js"></script>
 </body>
 </html>
