@@ -97,7 +97,7 @@ section div a{
     text-decoration: none;
 }
 section div a:hover{
-    outline: 5px solid #E50914;
+    outline: 3px solid #dedede;
 }
 
 section div a img{
