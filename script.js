@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 banderas.forEach(function(b) {
                     b.style.border = "none";
                 });
-                bandera.style.border = "2px solid rgb(255, 165, 0)";
+                bandera.style.border = "2px solid #ff646c";
                 lastSelectedCountry = country;
             }
 
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 generoPeliculaIcons.forEach(function(i) {
                     i.style.color = "";
                 });
-                icon.style.color = "rgb(255, 195, 83)";
+                icon.style.color = "#ff646c";
                 lastSelectedGenre = genre;
             }
 
