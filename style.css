@@ -153,3 +153,11 @@ section div a article{
         width: 70%;
     }
 }
+
+/* ADS */
+#banner1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
