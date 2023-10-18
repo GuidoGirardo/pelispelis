@@ -96,6 +96,10 @@ section div a{
     background-color: #ff5c64;
     text-decoration: none;
 }
+section div a:hover{
+    outline: 5px solid #E50914;
+}
+
 section div a img{
     width: 100%;
     height: 70%;
