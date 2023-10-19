@@ -5,12 +5,12 @@
     font-family: sans-serif;
 }
 body{
-    background-color: #9f9f9f;
+    background-color: #cdcdcd;
 }
 
 h1{
     user-select: none;
-    color: rgb(255, 165, 0);
+    color: #E50914;
     margin: 10px 0 0 20px;
     font-weight: bold;
 }
@@ -28,8 +28,8 @@ div{
     padding: 5px 0 0 20px;
 }
 div button{
-    background-color: #454545;
-    color: rgb(255, 165, 0);
+    background-color: #E50914;
+    color: white;
     padding: 5px 15px;
     border-radius: 5px;
     font-weight: bold;
@@ -38,7 +38,7 @@ div button{
     margin: 5px 0;
 }
 .boton-activo{
-    background-color: #787878;
+    background-color: #b31018;
 }
 
 /* EXIT */
@@ -48,8 +48,8 @@ div button{
     right: 20px;
     width: 100px;
     height: 25px;
-    background-color: #454545;
-    color: rgb(255, 165, 0);
+    background-color: black;
+    color: #E50914;
     font-weight: bold;
     border-radius: 5px;
     letter-spacing: 1px;
@@ -68,9 +68,9 @@ section{
     width: 50%;
 }
 section a{
-    background-color: red;
+    background-color: white;
     text-decoration: none;
-    color: white;
+    color: #E50914;
     padding: 5px 10px;
     font-weight: bold;
     border-radius: 5px;
