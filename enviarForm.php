@@ -15,13 +15,10 @@
 
     $sql = "INSERT INTO coments (comentario) VALUES ('$texto')";
 
-    if ($conn->query($sql) === TRUE) {
-        echo "El texto se ha guardado en la base de datos correctamente.";
-    } else {
-        echo "Error";
-    }
+    $conn->query($sql);
 
-    header('https://noflixonline.000webhostapp.com/');
+
+    header('Location: https://noflixonline.000webhostapp.com/');
 
     $conn->close();
 ?>
