@@ -46,8 +46,8 @@ div button{
     position: absolute;
     bottom: 20px;
     right: 20px;
-    width: 100px;
-    height: 25px;
+    width: 150px;
+    height: 40px;
     background-color: black;
     color: #E50914;
     font-weight: bold;
@@ -57,6 +57,7 @@ div button{
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    border: 3px solid white;
 }
 
 /* MÁS PELICULAS */
@@ -69,6 +70,7 @@ section{
 }
 section a{
     background-color: white;
+    border: 2px solid #343434;
     text-decoration: none;
     color: #E50914;
     padding: 5px 10px;
